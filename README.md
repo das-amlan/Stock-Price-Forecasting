@@ -1,8 +1,3 @@
-# Stock Price Forecasting using ARIMA model
-* We used 3 stocks to test our forecasting model- EXX5, IQQE and IUS4.
-* Data sets are collected from [Yahoo Finance](https://finance.yahoo.com/)
-* Time Window: May 2021 to May 2022
-
 # Stock Price Forecasting
 This repository contains the code for stock price forecasting using the ARIMA model. The model was tested on three stocks: EXX5, IQQE, and IUS4. Data for these stocks was collected from [Yahoo Finance](https://finance.yahoo.com/) for the time window of May 2021 to May 2022.
 
