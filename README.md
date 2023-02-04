@@ -13,7 +13,7 @@ The data for the stocks is collected from Yahoo Finance for the time window of M
 The data is preprocessed by checking for missing values, transforming the data into log-returns, and making the time series stationary.
 
 ### Model Selection 
-The code uses the statsmodels library to fit the ARIMA model on the stationary time series data. The parameters of the ARIMA model are selected using the **auto_arima** function.
+The code uses the statsmodels library to fit the ARIMA model on the stationary time series data. The parameters of the ARIMA model are selected using the **`auto_arima`** function.
 
 ### Model Fitting and Forecasting 
 The selected ARIMA model is fit on the data and used to make forecasts for future stock prices. The code also calculates the mean absolute error (MAE) to evaluate the performance of the model.
